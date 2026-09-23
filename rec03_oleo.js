@@ -3,11 +3,11 @@
 // EXERCÍCIO 03 — Peça aprovada ou reprovada
 
 const entrada = require("readline-sync");
-const peso = entrada.questionFloat("Digite o nivel de oleo: ");
+const nivel = entrada.questionFloat("Digite o nivel de oleo: ");
 
-console.log(`Peso informado: ${peso} g`);
+console.log(`Nivel informado: ${nivel} %`);
 
-if (nivel >= 80 && peso <= 105) {
+if (nivel >= 80 && peso <= 40) {
     console.log("NIVEL NORMAL");
 } else {
     console.log("INSPECAO NECESSARIA");
